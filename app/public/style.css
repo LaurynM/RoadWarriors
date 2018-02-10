@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-image: url("./road.jpg");
+    background-color: rgb(92,84,76);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#jumbo {
+    background: rgba(201,141,95, 0.666);
+    color: rgb(79,33,16);
+}
+.jumbotron>hr {
+    border-top-color: rgb(79,33,16);
+}
+.btn {
+    background: rgb(114,91,76);
+    color: rgb(79,33,16);
+    border: none;
+}
+.panel {
+    background: rgba(232,195,156, 0.666);
+    color: rgb(79,33,16);
+    border: none;
+}
+.panel-default>.panel-heading {
+    color: rgb(79,33,16);
+    border: none;
+    background: rgba(232, 195, 156, 0.92);
+}
+.modal{
+    background: rgba(111,64,28, 0.913);
+    color: rgb(79,33,16);
+}
+.modal-body, 
+.modal-header,
+.modal-footer{
+    background-color: rgb(232,195,156);
+}
+.footer {
+    font-size: 25px;
+}

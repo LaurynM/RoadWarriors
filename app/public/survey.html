@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Road Warriors</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron" id="jumbo">
+        <h1 class="text-center">Road Warriors!</h1>
+      <hr>
+      <h2 class="text-center">Decide your fate.</h2>
+      <br>
+
+      <div class="text-center">
+        <a href="/"><button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+
+        <!-- Survey -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Survey</h2>
+          </div>
+          <div class="panel-body">
+
+            <form role="form" name="form">
+                <h2>Identify Yourself</h2>
+              <div class="form-group">
+                    <label class="control-label" for="warrior-name">Name (Required)</label>
+                    <input type="text" class="form-control" name="name" id="warrior-name" aria-describedby="warrior-nameStatus">
+              </div>
+              <div class="form-group">
+                    <label class="control-label" for="photoURL">Link to Photo (Required)</label>
+                    <input type="url" class="form-control" name="photo" id="photoURL" aria-describedby="photoURLStatus">
+              </div>
+
+              <br>
+              <h2>What will incite your rage?</h2>
+              <div class="form-group">
+                <label for="q1">Song Choice</label>
+                <select class="form-control" id="q1">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q2">Vehicle Temperature</label>
+                <select class="form-control" id="q2">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q3">Amount of Time Spent at Destination</label>
+                <select class="form-control" id="q3">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q4">Number of Pit-Stops</label>
+                <select class="form-control" id="q4">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q5">Smoking in the Vehicle</label>
+                <select class="form-control" id="q5">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q6">Type of Vehicle</label>
+                <select class="form-control" id="q6">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q7">Size of Vehicle</label>
+                <select class="form-control" id="q7">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q8">Time of Departure</label>
+                <select class="form-control" id="q8">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q9">Total Miles Traveled</label>
+                <select class="form-control" id="q9">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q10">Hours Spent Driving</label>
+                <select class="form-control" id="q10">
+                  <option>1 - I really could not care less.</option>
+                  <option>2 - I have a preference, but whatever.</option>
+                  <option>3 - Do you mind? That bothers me.</option>
+                  <option>4 - Don't make me turn this car around.</option>
+                  <option>5 - I will fight you to the death.</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit">SUBMIT</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="matchModal" tabindex="-1" role="dialog" aria-labelledby="matchModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="matchModalLabel">Your Road Warrior:</h4>
+            </div>
+            <div class="modal-body">
+                <h2><span id="match-name"></span></h2>
+                <img id="match-photo" src="" style="width: 100%; height: auto;">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <footer class="footer">
+            <div class="container">
+              <p><a href="/api/warriors">API Warriors List</a> | <a href="https://github.com/LaurynM/RoadWarriors">GitHub Repo</a></p>
+            </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    function blankForm() {
+        $("#warrior-name").parent().removeClass("has-error", "has-feedback");
+        $("#photoURL").parent().removeClass("has-error", "has-feedback");
+        var x = document.forms["form"]["name"].value;
+        var y = document.forms["form"]["photo"].value;
+        if (x == "") {
+            $("#warrior-name").parent().addClass("has-error", "has-feedback");
+            return true;
+        } else if (y == "") {
+            $("#photoURL").parent().addClass("has-error", "has-feedback");
+            return true;
+        };
+    };
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+      if (blankForm()){return}
+          
+      var newWarrior = {
+        "name": $("#warrior-name").val().trim(),
+        "photo": $("#photoURL").val().trim(),
+        "scores": [
+        parseInt($("#q1").val().charAt(0)),
+        parseInt($("#q2").val().charAt(0)),
+        parseInt($("#q3").val().charAt(0)),
+        parseInt($("#q4").val().charAt(0)),
+        parseInt($("#q5").val().charAt(0)),
+        parseInt($("#q6").val().charAt(0)),
+        parseInt($("#q7").val().charAt(0)),
+        parseInt($("#q8").val().charAt(0)),
+        parseInt($("#q9").val().charAt(0)),
+        parseInt($("#q10").val().charAt(0))
+        ]
+      };
+
+
+      $.post("/api/warriors", newWarrior,
+        function(data) {
+            $("#match-name").text(data.name);
+            $("#match-photo").attr("src", data.photo);
+            $("#matchModal").modal({
+                keyboard: false
+            });
+
+          // Clear the form when submitting
+          $("#warrior-name").val("");
+          $("#photoURL").val("");
+          $("#q1").val("1 - I really could not care less.");
+          $("#q2").val("1 - I really could not care less.");
+          $("#q3").val("1 - I really could not care less.");
+          $("#q4").val("1 - I really could not care less.");
+          $("#q5").val("1 - I really could not care less.");
+          $("#q6").val("1 - I really could not care less.");
+          $("#q7").val("1 - I really could not care less.");
+          $("#q8").val("1 - I really could not care less.");
+          $("#q9").val("1 - I really could not care less.");
+          $("#q10").val("1 - I really could not care less.");
+
+        });
+
+    });
+
+</script>
