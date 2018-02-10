@@ -19,7 +19,6 @@ module.exports = function(app) {
             for (var n = 0; n < warriors[i].scores.length; n++) {
                 // find the absolute value of the difference between each of
                 // the incoming warrior's and the existing warriors' scores
-                // var x = Math.abs(req.body['scores[]'][n] - warriors[i].scores[n]);
                 var x = Math.abs(req.body.scores[n] - warriors[i].scores[n]);
                 // add the values together
                 sum += x;
